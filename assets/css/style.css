@@ -9,9 +9,18 @@ body{
     margin: auto;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
+
+.ml-10{
+    margin-left: 10px;
+}
+
 .product-1{
     position: relative;
-    display: inline-block; 
+    display: inline-block;
+    back 
 }
 
 img{
@@ -40,3 +49,11 @@ img{
     font-size: 40px;
     padding: 10px;
 }
+
+.product-1:hover{
+    background-image: url("../Images/1b.webp");
+    z-index: 1px;
+    height: 500px;
+    cursor: pointer;
+}
+    
