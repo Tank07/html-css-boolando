@@ -20,7 +20,6 @@ body{
 .product-1{
     position: relative;
     display: inline-block;
-    back 
 }
 
 img{
@@ -46,14 +45,20 @@ img{
     top: 20px;
     right: 0px;
     background-color: white;
-    font-size: 40px;
+    font-size: 30px;
     padding: 10px;
 }
 
-.product-1:hover{
-    background-image: url("../Images/1b.webp");
-    z-index: 1px;
-    height: 500px;
-    cursor: pointer;
+.product-1:hover .img1{
+    visibility: hidden;
 }
-    
+
+.product-1:hover{
+    cursor: pointer;
+    background-image: url("../Images/1b.webp");
+    background-size: cover;
+}
+
+.description{
+    background-color: white;
+}
