@@ -4,10 +4,14 @@
     box-sizing: border-box;
   }
 
+body{
+    width: 80%;
+    margin: auto;
+}
+
 .product-1{
     position: relative;
     display: inline-block; 
-    border: 2px solid red;
 }
 
 img{
@@ -16,15 +20,15 @@ img{
 
 .discount{
     position: absolute;
-    bottom: 80px;
-    left: 90px;
+    bottom: 70px;
+    left: 0px;
     background-color:red;
 }
 
-#eco{
+.eco{
     position: absolute;
-    bottom: 80px;
-    left: 0px;
+    bottom: 70px;
+    left: 35px;
     background-color:green;
 }
 
