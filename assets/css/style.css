@@ -5,6 +5,29 @@
   }
 
 .product-1{
-    display: inline-block;
     position: relative;
+    display: inline-block; 
+    border: 2px solid red;
+}
+
+.discount{
+    position: absolute;
+    bottom: 20px;
+    background-color:red;
+}
+
+#eco{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    background-color:green;
+}
+
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    font-size: 40px;
+    padding: 10px;
 }
