@@ -10,16 +10,21 @@
     border: 2px solid red;
 }
 
+img{
+    height: 500px;
+}
+
 .discount{
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
+    left: 90px;
     background-color:red;
 }
 
 #eco{
     position: absolute;
-    bottom: 20px;
-    left: 50px;
+    bottom: 80px;
+    left: 0px;
     background-color:green;
 }
 
