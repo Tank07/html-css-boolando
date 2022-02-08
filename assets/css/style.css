@@ -7,6 +7,9 @@
 body{
     width: 80%;
     margin: auto;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .mt-20{
@@ -15,6 +18,11 @@ body{
 
 .ml-10{
     margin-left: 10px;
+}
+
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .p-details{
@@ -34,14 +42,32 @@ img{
     position: absolute;
     bottom: 70px;
     left: 0px;
-    background-color:red;
+    background-color:#eb0037;
+    color: white;
+    padding: 2px;
 }
 
 .eco{
     position: absolute;
     bottom: 70px;
     left: 35px;
-    background-color:green;
+    background-color:#00875a;
+    color: white;
+    padding: 2px;
+}
+
+.product-6 .eco{
+    bottom: 70px;
+    left: 0px;
+}
+
+.red{
+    color: red;
+    font-size: 13px;
+}
+
+.discounted{
+    font-size: 13px;
 }
 
 .heart{
@@ -63,6 +89,34 @@ img{
 .product-2:hover{
     cursor: pointer;
     background-image: url("../Images/2b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-3:hover{
+    cursor: pointer;
+    background-image: url("../Images/3b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-4:hover{
+    cursor: pointer;
+    background-image: url("../Images/4b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-5:hover{
+    cursor: pointer;
+    background-image: url("../Images/5b.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-6:hover{
+    cursor: pointer;
+    background-image: url("../Images/6b.webp");
     background-size: cover;
     background-position: center;
 }
