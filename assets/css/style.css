@@ -17,9 +17,13 @@ body{
     margin-left: 10px;
 }
 
-.product-1{
+.p-details{
     position: relative;
     display: inline-block;
+}
+
+.p-details:hover .img1{
+    visibility: hidden;
 }
 
 img{
@@ -49,14 +53,18 @@ img{
     padding: 10px;
 }
 
-.product-1:hover .img1{
-    visibility: hidden;
-}
-
 .product-1:hover{
     cursor: pointer;
     background-image: url("../Images/1b.webp");
     background-size: cover;
+    background-position: center;
+}
+
+.product-2:hover{
+    cursor: pointer;
+    background-image: url("../Images/2b.webp");
+    background-size: cover;
+    background-position: center;
 }
 
 .description{
